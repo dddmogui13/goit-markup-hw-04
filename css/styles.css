@@ -310,12 +310,12 @@ text-transform: uppercase;
 }
 
 .footer-icons{
-box-sizing: border-box;
+    box-sizing: border-box;
     margin-right: 120px;
 }
 
 .footer-con-icon{
-gap:16px;
+    gap:16px;
 }
 
 .footer-con-icon-item{
@@ -354,10 +354,10 @@ gap:16px;
         0px 2px 1px rgba(46, 47, 66, 0.08); ;
 }
 
-.footer-list{
-    list-style: none;
-    display: flex;
-    gap: 40px;
+.footer-container{
+    display: inline-block;
+    align-items: auto;
+    align-items: baseline;
 }
 
 .portfolio-photo-name {
