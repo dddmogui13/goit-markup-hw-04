@@ -309,6 +309,11 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 
+.footer-icons{
+box-sizing: border-box;
+    margin-right: 120px;
+}
+
 .footer-con-icon{
 gap:16px;
 }
