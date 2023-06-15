@@ -610,8 +610,8 @@ width: calc((100% - 48px) / 3);
 }
 
 .customer-list-icon-link:focus {
-    color: #404bbf;
     border-color: #404bbf;
+    color: #404bbf;
 }
 
 .customer-list-icon {
