@@ -150,14 +150,13 @@ body {
 }
 
 .advantage {
-    background: var(--dark);
+    background-color: var(--dark);
+    margin: 0 auto;
     padding: 188px 0;
     display: flex;
-    margin: 0 auto;
-    background-image: linear-gradient(
-    var(--hero-background), var(--hero-background)
-    ),
-    url(../images/peopleoffice1.jpg);
+    background-image: linear-gradient(var(--hero-background),
+        var(--hero-background)),
+        url(../images/peopleoffice1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -273,6 +272,24 @@ width: calc((100% - 72px) / 4);
     background-color: var(--dark);
     padding-top: 100px;
     padding-bottom: 100px;
+    display: flex;
+}
+
+.footer-container {
+    display: flex;
+    align-items: auto;
+    align-items: baseline;
+}
+
+.footer-container-logo{
+    margin-right: 120px;
+}
+
+.footer-socmedia-container{
+    background-color: var(--dark);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: blo;
 }
 
 .footer-text {
@@ -354,11 +371,7 @@ text-transform: uppercase;
         0px 2px 1px rgba(46, 47, 66, 0.08); ;
 }
 
-.footer-container{
-    display: inline-block;
-    align-items: auto;
-    align-items: baseline;
-}
+
 
 .portfolio-photo-name {
     font-weight: 500;
